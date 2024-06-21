@@ -1,0 +1,137 @@
+@import url('https://fonts.cdnfonts.com/css/pf-ronda-seven');
+/* font-family: 'PF Ronda Seven', sans-serif; */
+
+:root{
+  
+
+    --background: #aeea3e;
+    --colorTitulo: #e86796;
+    --colorContraste: #F3F7EC;
+    --colorLetra: #000000cd;
+    --tipografia: 'PF Ronda Seven', sans-serif;}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+   
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    height: auto;
+    display: flex;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.nameBox{
+    border: 2px solid var(--colorLetra);
+    width: 35%;
+    height: 100px;
+ background-color: var(--colorContraste);
+    border-radius: 15px;
+    font-family: var(--tipografia);
+    color: var(--colorLetra);
+    padding: 10px 30px;
+}
+
+.form-Names{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--tipografia);
+}
+
+.form-Names h1{
+    color: var(--colorTitulo);
+    width: 100%;
+    text-align: center;
+   
+}
+
+.form-Names input{
+    border: 1px solid var(--colorLetra);
+    width: 45%;
+    height: 49px;
+    font-family: var(--tipografia);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 2%;
+    padding-left: 10px;
+    color: var(--colorLetra);
+}
+
+.form-Names h3{
+    text-align: center;
+    color: var(--colorTitulo);
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-transform:uppercase;
+}
+h2{
+ text-transform: capitalize;
+ color: #ba2159;
+}
+
+.form-Names button{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid var(--colorTitulo);
+    border-radius: 3px;
+    font-family: var(--tipografia);
+    color: var(--colorTitulo);
+}   
+.form-Names button:hover{
+    background-color: #e86796;
+    color: #000000;
+    border: solid white;
+
+}
+#btn-delete{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid var(--colorTitulo);
+    border-radius: 3px;
+    font-family: var(--tipografia);
+    color: var(--colorTitulo);
+}
+#btn-delete:hover{
+    background-color: #e86796;
+    color: #000000;
+    border: solid white;
+
+}
+
+footer{
+    text-align: center;
+    margin: 5px;
+}
+
